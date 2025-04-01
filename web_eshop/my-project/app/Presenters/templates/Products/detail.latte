@@ -1,0 +1,36 @@
+{block content}
+
+<div class="container">
+</div>
+<div class="container">
+
+    <div class="row" >
+    <div class="col-3 " >
+               <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              Oblečení
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Obuv</li>
+              <li class="list-group-item">Doplňky</li>
+              <li class="list-group-item">Sport</li>
+            </ul>
+          </div>
+    </div>   
+      <div class="col-9" >
+     <p class="fs-2">{$card["name"]}</p> 
+  <div class="col-9">   
+      <div class="row" >
+     <div class="col-7"> 
+       
+        <img src="https://img.freepik.com/premium-photo/grey-background_421632-9004.jpg" class="img-thumbnail" alt="...">  
+        </div>  
+        <div class="col-5"> 
+<p>{$card["description"]}</p> 
+ <p><b>Velikost:  </b>{$card["velikost"]} </P> 
+ <p><b>Barva: </b>{$card["barva"]} </P>
+ <a n:href="Cart:order" class="btn btn-primary">Přidat do košíku</a>
+    </div> 
+ </div>  
+  </div> 
+   </div> 
